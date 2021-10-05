@@ -1,0 +1,14 @@
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\bin\Debug\MinAMP2020.exe
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\bin\Debug\MinAMP2020.pdb
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.csprojAssemblyReference.cache
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MainWindow.g.cs
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\App.g.cs
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020_MarkupCompile.cache
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020_MarkupCompile.lref
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MainWindow.baml
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.g.resources
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.Properties.Resources.resources
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.csproj.GenerateResource.cache
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.csproj.CoreCompileInputs.cache
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.exe
+C:\Users\Булат\source\repos\MinAMP2020\MinAMP2020\obj\Debug\MinAMP2020.pdb

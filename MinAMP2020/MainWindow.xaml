@@ -1,0 +1,49 @@
+﻿<Window x:Class="MinAMP2020.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MinAMP2020"
+        mc:Ignorable="d"
+        Icon="minamp.png"
+    Title="MinAMP2020" Height="51" Width="250" ResizeMode="CanMinimize">
+    <Window.CommandBindings>
+        <CommandBinding
+			Command="Open"
+			Executed="binding_Open"></CommandBinding>
+        <CommandBinding
+			Command="Pause"
+			Executed="binding_Pause"></CommandBinding>
+        <CommandBinding
+			Command="Play"
+			Executed="binding_Play"></CommandBinding>
+        <CommandBinding
+			Command="Stop"
+			Executed="binding_Stop"></CommandBinding>
+        <CommandBinding
+			Command="Close"
+			Executed="binding_Close"></CommandBinding>
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="1" VerticalAlignment="Top">
+            <MenuItem Header="MP3">
+                <MenuItem Header="Play..." Command="Open"></MenuItem>
+                <MenuItem Header="Stop" Command="Stop"></MenuItem>
+                <MenuItem Header="Pause" Command="MediaCommands.Pause"></MenuItem>
+                <MenuItem Header="Unpause" Command="MediaCommands.Play"></MenuItem>
+                <Separator/>
+                <MenuItem Header="Exit" Command="Close"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="menuItem1" Header="Help" Click="menuItem1_Click_1">
+                <MenuItem Header="About..."></MenuItem>
+            </MenuItem>
+        </Menu>
+        <MediaElement
+			Name="MPl"			
+			LoadedBehavior="Manual"
+			UnloadedBehavior="Stop" Margin="0,-56,215,56"/>
+    </Grid>
+</Window>
